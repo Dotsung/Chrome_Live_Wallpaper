@@ -1,16 +1,12 @@
 {
     "manifest_version": 2,
 
-    "name": "Hello Extensions",
-    "description" : "Base Level Extension",
+    "name": "Live Wallpaper",
+    "description" : "Live Wallpaper",
     "version": "1.0",
 
     "chrome_url_overrides" : { 
         "newtab" : "newtab.html" 
-    },
-
-    "browser_action": {
-        "default_popup": "index.html"
     },
 
     "permissions":[
